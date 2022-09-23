@@ -13,12 +13,7 @@
 #pragma once
 
 // Disable startup song
-#ifdef AUDIO_ENABLE
 #define STARTUP_SONG SONG(NO_SOUND)
-#endif
-
-// Most tactile encoders (for rotary knobs etc) have detents every 4 stages
-#define ENCODER_RESOLUTION 4
 
 /*
   Set any config.h overrides for your specific keymap here.
@@ -29,4 +24,4 @@
 #define USB_SUSPEND_WAKEUP_DELAY 0
 
 // Set the default animation speed
-#define RGB_MATRIX_STARTUP_SPD 126
+#define RGB_MATRIX_STARTUP_SPD 1
